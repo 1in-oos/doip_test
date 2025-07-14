@@ -2,6 +2,7 @@ import csv
 from datetime import datetime
 
 
+
 def save_report(data_list, file_prefix="diagnostic_report"):
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     csv_file = f"{file_prefix}_{timestamp}.csv"
